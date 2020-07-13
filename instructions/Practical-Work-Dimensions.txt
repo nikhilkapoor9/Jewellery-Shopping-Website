@@ -1,0 +1,3 @@
+Mobile: 480px wide
+Tablet: 768px wide
+Desktop: 1280px wide

@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css?family=Girassol&display=swap');
+body
+{
+    background-color:rgb(104, 63, 63);
+    font-family: 'Oswald', sans-serif;
+}
+
+h1
+{
+    display: flex;
+    color: #F4B400;
+    justify-content: center;
+    font-size: 420%;
+    height: 20%;
+    margin-left: 5%;
+
+}
+
+strong
+{
+  display: flex;
+  
+}
+.logo
+  {
+    display: flex;
+    justify-content: center;
+    height: 40%;
+    width: 40%;
+
+  } 
+  .p1
+  {
+    position: absolute;
+    top: 5%;
+  margin-left: 25%;
+    font-size: 45%;
+  }
+
+
+
+.kapoor
+{
+  display: flex;
+margin-left: -6%;
+padding-right:  5 ;
+}
+
+.jewellers
+{
+  display: inline;
+  padding-left: 2%;
+
+}
+
+
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top:95%;
+    margin-right:90%;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  /*.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  */
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(32, 23, 23, 0.2);
+   
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display:block;
+    font-size: 20px;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: gold;}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+   
+    background-color:brown;
+  }
+
+
+.register
+{
+  
+  margin-left:  -365%;
+  margin-top: 82%;
+  background-color: #4CAF50;
+  color: white;
+  width: 190%;
+  height: 33%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+  
+ .ourbrands
+{
+  margin-left: -880%;
+  margin-top: 90%;
+  background-color: #4CAF50;
+  color: white;
+  width: 130%;
+  height: 33%;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+.ourbrands2
+{
+  position: absolute  ;
+  top: 180px;
+  left: 150px;
+}
+
+.jewellery
+{
+  margin-left: -645%;
+  margin-top: 74%;
+  height: 33%;
+  cursor: pointer;
+}
+.jewellery2
+{
+  position: absolute;
+  top: 180px;
+  left: 340px;
+}
+.shoponline
+{
+  margin-left: -380%;
+  margin-top: 77%;
+  height: 33%;
+  cursor: pointer;
+}
+.aboutus
+{
+  margin-left: -350%;
+  margin-top: 98%;
+  height: 33%; 
+
+}
+
+  pre
+  {
+    position: absolute;
+    top: 65%;
+    left: 15%;
+    color: white;
+    font-size: 75px;
+  }
+  p
+  {
+    position: absolute;
+    top: 80%;
+    left: 45%;
+    color: white;
+    font-size: 65px;
+  }
+/************************css code after head*****************************************/
+  .necklacebg
+  {
+    width: 100%;
+  }
+  .dpneck
+  {
+  position: absolute;
+  top: 45%;
+  left: 5%;
+ height: 80%; 
+}
+.pp
+{
+  position: absolute;
+  left: 725px;
+}
+footer
+{
+  height: 300px;
+  background-color: rgb(150, 43, 16) ;
+}
+.foottext
+{
+  
+  color:gold;
+  position: absolute;
+  top: 1040px;
+  left: 200px;
+  height: 200px;
+}
+.fa-facebook {
+ 
+  color: white;
+}
+.fbicon
+{
+  border-radius: 30%;
+  height: 70px;
+}
+
+/*media query for mobile screens*/
+
+@media only screen and (min-width: 50px) and (max-width: 599px) {
+  
+  h1{
+     
+font-size: 20px;
+  }
+  .kapoor
+  {
+    position: absolute;
+    left: 80px;
+  }
+  .jewellers
+  {
+    position: absolute;
+    left: 140px;
+  }
+
+  .logo
+  {
+    position: absolute;
+    top: 68px;
+    left: 35px;
+    height: 55px; width: 75px;
+  }
+  .p1
+  {
+    position: absolute;
+    top: -4px;
+    left: 100px;
+  }
+  .pp
+  {
+    position: absolute;
+    top: 350px;
+    left: 220px;
+    font-size: 30px;
+  }
+  .foottext
+  {
+    position: absolute;
+    top: 500px;
+    font-size: 20px;
+    left: 100px;
+  }
+  .ourbrands
+  {
+    position: absolute;
+    height: 40px;
+  width: 100px;
+    margin-left: -130px;
+    margin-top: 40px;
+    font-size: 10px;
+  }
+  .jewellery{
+    position: absolute;
+    height: 40px;
+    width: 140px;
+    margin-left: -15px;
+    margin-top: 40px;
+  }
+  .shoponline
+  {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    margin-left: -15px;
+    margin-top: 90px;
+  }
+  .aboutus
+  {
+    position: absolute;
+    height: 60px;
+    width: 100px;
+    margin-left: -130px;
+    margin-top: 90px;
+  }
+  .container
+  {
+    height: 5px;
+    width: 60%;
+  }
+  .necklacebg
+  {
+    width: 190%;
+  height: 350px;
+  }
+  .dpneck
+  {
+    position: absolute;
+    top: 250px;
+    left: 10px;
+    height: 40%;
+width: 40%;
+  }
+ 
+  .home
+  {
+    position: absolute;
+    height: 60px;
+    width: 80px;
+    margin-left: -235px;
+    margin-top: 50px;
+  }
+  .foottext
+  {
+    position: absolute;
+    top: 510px;
+  }
+ 
+}
+/*media query for i-pads screens*/
+@media only screen and (min-width: 600px) and (max-width: 999px) {
+  h1{
+       
+    font-size: 20px;
+        }
+        .pp
+        {
+         position: absolute;
+          top:650px;
+          left:-220px;
+
+        }
+        .kapoor
+        {
+          position: absolute;
+          left: 80px;
+        }
+        .jewellers
+        {
+          position: absolute;
+          left: 100px;
+        }
+        .logo
+        {
+          position: absolute;
+          top: 50px;
+          left: 35px;
+          height: 55px; width: 75px;
+        }
+     
+        .p1
+        {
+          position: absolute;
+          top: -4px;
+          left: 120px;
+        }
+      
+        .ourbrands
+        {
+          position: absolute;
+          height: 40px;
+        width: 100px;
+          margin-left: -130px;
+          margin-top: 40px;
+          font-size: 10px;
+        }
+        .jewellery{
+          position: absolute;
+          height: 40px;
+          width: 140px;
+          margin-left: -15px;
+          margin-top: 40px;
+        }
+        .shoponline
+        {
+          position: absolute;
+          height: 60px;
+          width: 100px;
+          margin-left: -15px;
+          margin-top: 90px;
+        }
+        .aboutus
+        {
+          position: absolute;
+          height: 60px;
+          width: 100px;
+          margin-left: -130px;
+          margin-top: 90px;
+        }
+        .container
+        {
+          height: 5px;
+          width: 60%;
+        }
+        .necklacebg
+        {
+          width: 190%;
+        height: 350px;
+        }
+        .dpneck
+        {
+          position: absolute;
+          top: 250px;
+          left: 10px;
+          height: 40%;
+    width: 40%;
+        }
+       
+        .home
+        {
+          position: absolute;
+          height: 60px;
+          width: 80px;
+          margin-left: -235px;
+          margin-top: 50px;
+        }
+        .foottext
+        {
+          position: absolute;
+          top: 510px;
+        }
+  }
+
+  /*media query for i-pads screens*/
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+   
+  h1{
+       
+    font-size: 20px;
+        }
+        .kapoor
+        {
+          position: absolute;
+          left: 80px;
+        }
+        .jewellers
+        {
+          position: absolute;
+          left: 100px;
+        }
+        .logo
+        {
+          position: absolute;
+          top: 50px;
+          left: 35px;
+          height: 55px; width: 75px;
+        }
+     
+        .p1
+        {
+          position: absolute;
+          top: -4px;
+          left: 120px;
+        }
+        .ourbrands
+        {
+          position: absolute;
+          height: 40px;
+        width: 100px;
+          margin-left: -130px;
+          margin-top: 40px;
+          font-size: 10px;
+        }
+        .jewellery{
+          position: absolute;
+          height: 40px;
+          width: 140px;
+          margin-left: -15px;
+          margin-top: 40px;
+        }
+        .shoponline
+        {
+          position: absolute;
+          height: 60px;
+          width: 100px;
+          margin-left: -15px;
+          margin-top: 90px;
+        }
+        .aboutus
+        {
+          position: absolute;
+          height: 60px;
+          width: 100px;
+          margin-left: -130px;
+          margin-top: 90px;
+        }
+        .container
+        {
+          height: 5px;
+          width: 60%;
+        }
+        .necklacebg
+        {
+          width: 190%;
+        height: 350px;
+        }
+        .dpneck
+        {
+          position: absolute;
+          top: 250px;
+          left: 10px;
+          height: 40%;
+    width: 40%;
+        }
+       
+        .home
+        {
+          position: absolute;
+          height: 60px;
+          width: 80px;
+          margin-left: -235px;
+          margin-top: 50px;
+        }
+  }
+  }
+
+
+
+
+
+
+
